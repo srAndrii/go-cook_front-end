@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b42b11f-c26a-40d7-8941-9caef4664089" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/categoryCard/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/recipes/Recipes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/RecipeCard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/RecipeCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/recipePage/recipePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/recipePage/recipePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/api.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/categoriesApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/recipesApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/images.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2H2EI60k5O0LutrgFfLCpUwitib" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\projects\\go-cook\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\projects\\go-cook\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\go-cook\src\assets" />
+      <recent name="C:\projects\go-cook\src" />
+      <recent name="C:\projects\go-cook\public" />
+      <recent name="C:\projects\go-cook\src\components\recipes\recipeCard" />
+      <recent name="C:\projects\go-cook\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b42b11f-c26a-40d7-8941-9caef4664089" name="Changes" comment="" />
+      <created>1667474695009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667474695009</updated>
+      <workItem from="1667474696905" duration="10935000" />
+      <workItem from="1667725030332" duration="5540000" />
+      <workItem from="1667916985506" duration="1007000" />
+      <workItem from="1668084927748" duration="830000" />
+      <workItem from="1668103242616" duration="493000" />
+      <workItem from="1668103801706" duration="6691000" />
+      <workItem from="1668168604186" duration="1901000" />
+      <workItem from="1668179828010" duration="6908000" />
+      <workItem from="1668191281343" duration="590000" />
+      <workItem from="1668243250433" duration="826000" />
+      <workItem from="1668265574471" duration="8323000" />
+      <workItem from="1668277116358" duration="7956000" />
+      <workItem from="1668339461799" duration="13208000" />
+      <workItem from="1668513630063" duration="10903000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
