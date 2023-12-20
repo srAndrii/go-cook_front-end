@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9b42b11f-c26a-40d7-8941-9caef4664089" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/categoryCard/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recipes/Recipes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/RecipeCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/RecipeCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/recipePage/recipePage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/recipePage/recipePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/api.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/categoriesApi.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/recipesApi.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/images.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api.helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/interceptors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/authProvider/AuthProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/authProvider/CheckRole.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth/Auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth/Auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth/AuthFields.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth/auth.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth/regEx.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-elements/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-elements/Field.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-elements/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-elements/form.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page404/Page404.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page404/Page404.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useTypedSelector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/rootAction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.interfase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/user/user.slice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/auth/auth.helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/auth/auth.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/user.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/local-storage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cezar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/recipes/Recipes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipes/Recipes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/recipes/recipeCard/RecipeCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/RecipeCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/recipes/recipeCard/recipePage/recipePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recipes/recipeCard/recipePage/recipePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/api.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/api.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +74,34 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/go-cook/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\projects\\go-cook\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\projects\\go-cook\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\go-cook\src" />
+      <recent name="C:\projects\go-cook\src\services\auth" />
+      <recent name="C:\projects\go-cook\src\hooks" />
+      <recent name="C:\projects\go-cook\src\redux" />
+      <recent name="C:\projects\go-cook\src\utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\go-cook\src\redux" />
+      <recent name="C:\projects\go-cook\src\redux\api" />
       <recent name="C:\projects\go-cook\src\assets" />
       <recent name="C:\projects\go-cook\src" />
       <recent name="C:\projects\go-cook\public" />
-      <recent name="C:\projects\go-cook\src\components\recipes\recipeCard" />
-      <recent name="C:\projects\go-cook\src\components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,7 +125,26 @@
       <workItem from="1668265574471" duration="8323000" />
       <workItem from="1668277116358" duration="7956000" />
       <workItem from="1668339461799" duration="13208000" />
-      <workItem from="1668513630063" duration="10903000" />
+      <workItem from="1668513630063" duration="11205000" />
+      <workItem from="1668634087984" duration="110000" />
+      <workItem from="1668678063785" duration="3360000" />
+      <workItem from="1668709886391" duration="1341000" />
+      <workItem from="1669034345148" duration="3325000" />
+      <workItem from="1670158481656" duration="19000" />
+      <workItem from="1671884783136" duration="70000" />
+      <workItem from="1671885528278" duration="8000" />
+      <workItem from="1671886514340" duration="229000" />
+      <workItem from="1671886788272" duration="271000" />
+      <workItem from="1672340364594" duration="433000" />
+      <workItem from="1672395985958" duration="3644000" />
+      <workItem from="1672765375568" duration="2732000" />
+      <workItem from="1672939579332" duration="3336000" />
+      <workItem from="1672997852879" duration="3980000" />
+      <workItem from="1673021534654" duration="6110000" />
+      <workItem from="1673090873940" duration="8679000" />
+      <workItem from="1673110877167" duration="2732000" />
+      <workItem from="1673177797620" duration="5212000" />
+      <workItem from="1674523745870" duration="589000" />
     </task>
     <servers />
   </component>
@@ -117,5 +161,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/auth/AuthFields.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

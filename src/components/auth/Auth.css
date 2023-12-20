@@ -1,0 +1,50 @@
+.wrapper {
+    margin-top: 8rem;
+}
+.auth__title{
+    color: #e7f5dc;
+    font-size: 1.5rem;
+}
+.wrapper form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+    border-radius: 0.8rem;
+    background-color: #64ac8f;
+    color: #fff;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    padding: 1.75rem;
+
+    text-align: center;
+}
+
+    /*@media (min-width: 700px) and (max-width: 1200px){*/
+    /*  min-width: 500px;*/
+    /*}*/
+    /*@media (min-width: 280px) and (max-width: 700px){*/
+    /*  width: 100%;*/
+    /*  padding: 1rem;*/
+    /*}*/
+
+
+
+.buttons {
+    margin-top: 1rem;
+}
+.buttons button:first-child {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.buttons button:last-child {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    transition-duration: 200ms;
+
+    opacity: 0.8;
+    background-color: #e7f5dc;
+
+}

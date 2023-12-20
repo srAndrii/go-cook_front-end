@@ -22,7 +22,8 @@
 }
 
 .header__logo{
-    width: 110px;
+    width: 100px;
+    padding-top: 10px;
 }
 .mobile_navbar{
     position: fixed;

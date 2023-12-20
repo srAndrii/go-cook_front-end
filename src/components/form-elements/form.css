@@ -1,0 +1,70 @@
+.button {
+  background-color: #e7f5dc;
+  color: #64ac8f;
+  font-family: 'Marck Script', cursive;
+  border-radius: 0.65rem;
+  border: none;
+  transition: background-color .3s ease-in-out;
+
+  padding: 0.5rem 1.5rem;
+  /*//@apply btn-primary py-2 px-10;*/
+  /*//@media (min-width: 280px) and (max-width: 450px){*/
+  /*//  padding-left: 1.5rem;*/
+  /*//  padding-right: 1.5rem;*/
+  /*//}*/
+}
+.button:hover{
+  background-color: #c0dfc2;
+}
+
+.common{
+  position: relative;
+  border-bottom-width: 1px;
+  border-color: rgb(102 103 110 );
+
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+
+
+}
+
+.common label{
+  display: block;
+}
+
+.common span{
+  display: block;
+  font-size: 1.25rem;
+  line-height: 0.5rem;
+  /*text-transform: uppercase;*/
+  color: #e7f5dc;
+}
+.field{
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.field input{
+  width: 100%;
+
+  margin: 0px;
+  padding: 6px 0;
+
+  color: #e7f5dc;
+  font-family: 'Marck Script', cursive;
+  font-size: 1.25rem;
+
+  border: none;
+  border-bottom: 1px solid #e7f5dc;
+  outline: none;
+
+  background: transparent;
+}
+
+.error {
+  padding-top: 5px;
+  font-size: 0.75rem;
+  color: #8f050b;
+}
+

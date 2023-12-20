@@ -1,5 +1,4 @@
 import React, { FC } from 'react'
-import Cezar from '../../cezar.jpg'
 import { BsFillStarFill, BsFillStopwatchFill } from 'react-icons/bs'
 
 import './RecipeCard.css'

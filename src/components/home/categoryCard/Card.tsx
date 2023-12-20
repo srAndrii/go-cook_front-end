@@ -8,7 +8,7 @@ interface ICard {
 const Card: FC<ICard> = ({ title, icon }) => {
     return (
         <div className="home__card">
-            <img className="home__card__icon" src={icon} alt="Cake" />
+            <img className="home__card__icon" src={icon} alt="dskr" />
             <p>{title}</p>
         </div>
     )

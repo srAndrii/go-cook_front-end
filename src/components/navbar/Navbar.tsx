@@ -1,9 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, MouseEvent } from 'react'
 import { motion } from 'framer-motion'
 
 import Logo from '../../assets/logo.png'
 import './Navbar.css'
 import { HiMenuAlt4, HiX } from 'react-icons/hi'
+import { useAuth } from '../../hooks/useAuth'
+import { useActions } from '../../hooks/useActions'
+import { Link } from 'react-router-dom'
+import Auth from '../auth/Auth'
 
 const variants = {
     open: { opacity: 1, x: 0 },
@@ -12,10 +16,19 @@ const variants = {
 
 const Navbar = () => {
     const [show, setShow] = useState(false)
+    const { user } = useAuth()
+
+    const { logout } = useActions()
+    const handleLogout = (e: MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault()
+        logout()
+    }
     return (
         <>
             <div className="header">
-                <img className="header__logo" src={Logo} alt="Logo" />
+                <Link to={`/`}>
+                    <img className="header__logo" src={Logo} alt="Logo" />
+                </Link>
             </div>
             <motion.nav
                 animate={show ? 'open' : 'closed'}
@@ -25,9 +38,36 @@ const Navbar = () => {
                 className="mobile_navbar"
             >
                 <motion.div className="inner_nav">
-                    <div onClick={() => setShow((show) => !show)}>menu</div>
-                    <div onClick={() => setShow((show) => !show)}>menu</div>
-                    <div onClick={() => setShow((show) => !show)}>menu</div>
+                    {user ? (
+                        <>
+                            <div onClick={() => setShow((show) => !show)}>
+                                {user?.email}
+                            </div>
+                            <div>
+                                <a onClick={handleLogout}>
+                                    <span>Вийти</span>
+                                </a>
+                            </div>
+                        </>
+                    ) : (
+                        <>
+                            <div onClick={() => setShow((show) => !show)}>
+                                <Link
+                                    to={`/auth`}
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: '#e7f5dc',
+                                    }}
+                                >
+                                    {/*<Auth />*/}
+                                    Увійти
+                                </Link>
+                            </div>
+                        </>
+                    )}
+                    {/**/}
+                    {/*<div onClick={() => setShow((show) => !show)}>menu</div>*/}
+                    {/*<div onClick={() => setShow((show) => !show)}>menu</div>*/}
                 </motion.div>
             </motion.nav>
             <motion.button

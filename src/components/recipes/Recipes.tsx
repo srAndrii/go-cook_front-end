@@ -2,8 +2,9 @@ import React, { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useGetRecipesByCategoryQuery } from '../../redux/recipesApi'
 import RecipeCard, { IRecipeCard } from './recipeCard/RecipeCard'
+import { NextPageAuth } from '../../services/auth/auth.types'
 
-const Recipes = () => {
+const Recipes: NextPageAuth = () => {
     const { id } = useParams()
     const { data } = useGetRecipesByCategoryQuery(id)
 
@@ -29,5 +30,7 @@ const Recipes = () => {
         </div>
     )
 }
+
+Recipes.isOnlyUser = false
 
 export default Recipes

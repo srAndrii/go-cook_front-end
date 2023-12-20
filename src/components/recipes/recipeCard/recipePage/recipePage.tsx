@@ -1,9 +1,9 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useGetRecipesByIdQuery } from '../../../../redux/recipesApi'
-import Cezar from '../../../cezar.jpg'
-import './recipePage.css'
 import { BsFillStarFill, BsFillStopwatchFill } from 'react-icons/bs'
+
+import './recipePage.css'
 
 export interface IIngredients {
     name: string
