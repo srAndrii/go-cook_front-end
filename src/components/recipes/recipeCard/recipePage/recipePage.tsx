@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useGetRecipesByIdQuery } from '../../../../redux/recipesApi'
 import { BsFillStarFill, BsFillStopwatchFill } from 'react-icons/bs'

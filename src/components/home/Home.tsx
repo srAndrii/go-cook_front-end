@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 
 import Card from './categoryCard/Card'
 import { useGetCategoriesQuery } from '../../redux/categoriesApi'
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import './home.css'
 

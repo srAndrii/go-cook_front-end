@@ -2,13 +2,13 @@ import React, { useState, MouseEvent } from 'react'
 import { motion } from 'framer-motion'
 
 import Logo from '../../assets/logo.png'
-import './Navbar.css'
+
 import { HiMenuAlt4, HiX } from 'react-icons/hi'
 import { useAuth } from '../../hooks/useAuth'
 import { useActions } from '../../hooks/useActions'
 import { Link } from 'react-router-dom'
-import Auth from '../auth/Auth'
 
+import './Navbar.css'
 const variants = {
     open: { opacity: 1, x: 0 },
     closed: { opacity: 0, x: '100%' },
@@ -44,9 +44,9 @@ const Navbar = () => {
                                 {user?.email}
                             </div>
                             <div>
-                                <a onClick={handleLogout}>
+                                <span onClick={handleLogout}>
                                     <span>Вийти</span>
-                                </a>
+                                </span>
                             </div>
                         </>
                     ) : (
@@ -59,15 +59,11 @@ const Navbar = () => {
                                         color: '#e7f5dc',
                                     }}
                                 >
-                                    {/*<Auth />*/}
                                     Увійти
                                 </Link>
                             </div>
                         </>
                     )}
-                    {/**/}
-                    {/*<div onClick={() => setShow((show) => !show)}>menu</div>*/}
-                    {/*<div onClick={() => setShow((show) => !show)}>menu</div>*/}
                 </motion.div>
             </motion.nav>
             <motion.button

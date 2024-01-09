@@ -7,7 +7,6 @@
 }
 .recipe__title{
     font-size: 20px;
-    /*justify-content: center;*/
     margin: 10px 0;
 
 }
@@ -18,7 +17,6 @@
     border-radius: 5px;
 }
 .recipe__ingredients{
-    /*align-self: start;*/
     font-size: 15px;
     padding: 0 5px;
     margin: 10px 0;
@@ -55,15 +53,10 @@
     font-size: 12px;
     justify-content: space-between;
 
-    /*font-size: 12px;*/
-    /*line-height: 1;*/
     color:#94d6ba;
-    /*margin: 0 5px 0 0;*/
 }
 .recipe__icon{
-    /*font-size: 10px;*/
     color:#94d6ba;
-    /*margin: 0 3px 0 5px;*/
 }
 
 .recipe__stars{

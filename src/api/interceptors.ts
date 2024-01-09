@@ -1,11 +1,9 @@
 import axios, { AxiosHeaders } from 'axios'
-import { API_SERVER_URL, API_URL } from '../config/api.config'
+import {  API_URL } from '../config/api.config'
 import { errorCatch, getContentType } from './api.helpers'
-// import Cookies from 'js-cookie'
 import { AuthService } from '../services/auth/auth.service'
 import { removeTokensStorage } from '../services/auth/auth.helper'
 import Cookies from 'js-cookie'
-// import { IS_PRODUCTION } from '../config/constants'
 
 export const axiosClassic = axios.create({
     baseURL: API_URL,
@@ -23,7 +21,6 @@ instance.interceptors.request.use((config) => {
     if (config.headers && accessToken) {
         config.headers = { ...config.headers } as AxiosHeaders
         config.headers.set('Authorization', accessToken)
-        // config.headers.Authorization = `Bearer ${accessToken}`
     }
     return config
 })
